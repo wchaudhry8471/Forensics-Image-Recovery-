@@ -1,0 +1,27 @@
+0. PNG = ~ 16 million Colors 
+   GIF = ~ 265 colors
+   BMP = ~ 16 million colors 
+   JPEG = ~ 16 million colors 
+1.  GIF formatted files support animation. 
+2.  Lossless compression reduces the files size without sacrificing image quality. These files are not capable of being compressed to the degree of lossy compression. 
+    Lossy compression removes a chunk of information that may not be visible to the user such that size is prioritized over quality. 
+3.  JPEG is Lossy Compressed. 
+4.  You simply remove the pointer to that specific address in memory. However the data itself is still present. The metadata that composes the pointer is rewritten.  
+    subsequently, the cluster of the file in FAT, is moved to a list of free clusters.  
+5.  You can physically destroy the Hard Drive, degausse the magnetic drives, or simply overwrite all of the drives data into NULL characters so that the original data can't be recovered. 
+6.  stdint.h is a prewritten header file that contains the amount of bits requried 
+    in order to store integers. 
+7.  These values establish the amount of bits that an uninitialized integer takes. 
+8.  They are 1, 4, 4, and 2 bits respectively. This only applies to 32 bit machines. 
+9.  The first byte is a B and the second byte is a M. Written in ASCII, 66 and 77 
+    respectively. 
+10. bfsize is a measure of the size in bytes of the BMP file and biSize is a measure of the number of bytes necessary for the structure. 
+11. The bitmap is top-down device-independent bitmap (DIB) and begins in the top left corner. 
+12. biBitCount
+13. This may demonstrate that the file is not in that location or simply does not 
+    exist. 
+14. This establishes the number of elements that need to be read. 
+15. It assigns a value of 0. 
+16. It places the pointer in a unique, new position. 
+17. Shows the current position of the file pointer. 
+18. Milo Banana 
